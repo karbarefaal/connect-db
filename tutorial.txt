@@ -1,6 +1,6 @@
 I need to install postgres on docker without considering installing postgres individually:
 
     docker pull postgres:14
-    docker run --name uncodev-pg -e POSTGRES_USER=ali -e POSTGRES_PASSWORD=123456 -e POSTGRES_DB=test -p 5454:5432 -d postgres:14
+    docker run --name postgres1-pg -e POSTGRES_USER=ali -e POSTGRES_PASSWORD=123456 -e POSTGRES_DB=test -p 5454:5432 -d postgres:14
     docker ps
     
